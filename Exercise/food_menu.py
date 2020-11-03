@@ -35,7 +35,7 @@ while order!="0":
     menu()
     order= input("Enter meal code: ")
     
-print("")
+print('\n')
 print("Thank you.")    
 print("You have ordered: "+ str(orderList))
-print("Please pay: $"+str(total))
+print(f'Please pay: ${total}')
