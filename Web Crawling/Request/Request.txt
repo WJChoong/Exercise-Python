@@ -1,0 +1,12 @@
+r = requests.get(url)
+# "requests.get(url)" as an request to the server
+# "r" as a variable to accept the response
+
+requests.get(url, params=None, **kwargs)
+# url: 获取页面的url链接
+# params: url中的额外参数， 字典或字节流格式， 可选
+# **kwargs: 12歌控制访问的参数
+
+# get used requests.request to operate
+
+# 在 "r = requests.get(url)" 里, reponse最重要，response对象包含了爬虫返回的内容

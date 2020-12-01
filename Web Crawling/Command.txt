@@ -1,0 +1,9 @@
+install requests: cmd > run as administrator > pip install requests
+
+requests.request() - 构造请求，支撑一下各种方法的基础
+requests.get() - 获取HTML网页的主要方法，对应于HTTP的GET
+requests.head() - 获取HTML网页头信息的方法，对应于HTTP的HEAD
+requests.post() - 向HTML网页提交POST请求的方法， 对应HTTP的POST 
+requests.put() - 向HTML网页提交PUT请求的方法， 对应 HTTP的PUT
+requests.patch() - 向HTML网页提交局部修改请求法， 对应HTTP的PATCH
+requests.delete() - 向HTML网页提交删除请求， 对应HTTP的DELETE
