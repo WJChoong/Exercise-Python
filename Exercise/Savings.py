@@ -64,7 +64,7 @@ while choice != "3":
                     print("Self: " + str(amount*0.1))
                     print("Investment: " + str(amount*0.2))
                     print("Travel: " + str(amount*0.2)) 
-                    print("Dream: " + str(long*0.1)) 
+                    print("Dream: " + str(amount*0.1)) 
                     print()
                     menu()
                     choice = input("Your choice: ")  
