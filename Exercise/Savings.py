@@ -58,10 +58,10 @@ while choice != "3":
                 amount = input("Amount of your money: ")
                 print("-"*30)
                 if amount.isdigit() == True:
-                    amount = int(amount)
+                    amount = float(amount)
                     print("Long: " + str(amount*0.2))
                     print("Daily: " + str(amount*0.2))
-                    print("Self: " + str(amount*0.1))
+                    print("Self-improve: " + str(amount*0.1))
                     print("Investment: " + str(amount*0.2))
                     print("Travel: " + str(amount*0.2)) 
                     print("Dream: " + str(amount*0.1)) 
