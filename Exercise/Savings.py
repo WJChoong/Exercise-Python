@@ -60,10 +60,11 @@ while choice != "3":
                 if amount.isdigit() == True:
                     amount = float(amount)
                     print("Long: " + str(amount*0.2))
-                    print("Daily: " + str(amount*0.2))
-                    print("Self-improve: " + str(amount*0.1))
+                    print("Daily: " + str(amount*0.1))
+                    print("Self: " + str(amount*0.1))
                     print("Investment: " + str(amount*0.2))
                     print("Travel: " + str(amount*0.2)) 
+                    print("gf: " + str(amount*0.1))
                     print("Dream: " + str(amount*0.1)) 
                     print()
                     menu()
