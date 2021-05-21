@@ -1,0 +1,5 @@
+Name=input("Enter Name")
+Temp=float(input("Ask for temperature"))
+Ans=(Temp-36.9)
+Ans= round(Ans,1)
+print(Name+"'s temperature is "+str(Ans)+" degree celcius from "+str(36.9)+" degree celcius.")
